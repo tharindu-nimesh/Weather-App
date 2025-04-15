@@ -8,7 +8,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const suggestionsRef = useRef(null);
 
-  const API_KEY = "ac83661961c9d53f04a64bd3418f5773";
+  const API_KEY = "api-key";
 
   // Close suggestions when clicking outside
   useEffect(() => {
